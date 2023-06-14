@@ -1,0 +1,10 @@
+.book-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  app-book-card {
+    padding-left: 20px;
+    padding-bottom: 15px;
+  }
+}
